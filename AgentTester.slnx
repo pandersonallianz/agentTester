@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AgentTester.Cards/AgentTester.Cards.csproj" />
+    <Project Path="src/AgentTester.Config/AgentTester.Config.csproj" />
+    <Project Path="src/AgentTester.Console/AgentTester.Console.csproj" />
+    <Project Path="src/AgentTester.Tests/AgentTester.Tests.csproj" />
+  </Folder>
+</Solution>
