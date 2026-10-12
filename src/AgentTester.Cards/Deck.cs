@@ -39,4 +39,19 @@ public class Deck
         _cards.RemoveAt(_cards.Count - 1);
         return card;
     }
+
+    public List<Card> DrawHand(int count)
+    {
+        if (_cards.Count < count)
+        {
+            throw new InvalidOperationException("Not enough cards in the deck.");
+        }
+
+        var hand = new List<Card>();
+        for (int i = 0; i < count; i++)
+        {
+            hand.Add(Draw());
+        }
+        return hand;
+    }
 }
