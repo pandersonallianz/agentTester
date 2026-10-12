@@ -1,0 +1,4 @@
+.github/workflows/*.lock.yml linguist-generated=true
+
+.github/workflows/*.lock.yml text eol=lf 
+.github/aw/*.json text eol=lf
